@@ -1,0 +1,53 @@
+<div class="container-fluid">
+    <div class="container">
+        <h2 style="text-align: center;">My Gallery</h2><hr class="a">
+        <p class="b"><b>"A PHOTOGRAPH IS THE PAUSE BUTTON OF LIFE."</b></p>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" (click)="all()"><b>All</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" (click)="wildLife()"><b>Wild Life</b></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tab" (click)="nature()"><b>Nature</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" (click)="potrait()"><b>Portrait</b></a>
+            </li>
+             <li class="nav-item">
+               <a class="nav-link" data-toggle="tab" (click)="couples()"><b>Couples</b></a>
+             </li>
+        </ul>
+        <div class="row" *ngIf="e1">
+            <div class="col-md-3" *ngFor="let photo of photos">
+                <br>
+                <img src="{{photo.imageUrl}}" alt="...." class="c">
+            </div>
+        </div>
+        <div class="row" *ngIf="e2">
+            <div class="col-md-3" *ngFor="let photo of wildlife">
+                <br>
+                <img src="{{photo.imageUrl}}" alt="...." class="c">
+            </div>
+        </div>
+        <div class="row" *ngIf="e3">
+            <div class="col-md-3" *ngFor="let photo of nat">
+                <br>
+                <img src="{{photo.imageUrl}}" alt="...." class="c">
+            </div>
+        </div>
+        <div class="row" *ngIf="e4">
+            <div class="col-md-3" *ngFor="let photo of pot">
+                <br>
+                <img src="{{photo.imageUrl}}" alt="...." class="c">
+            </div>
+        </div>
+        <div class="row" *ngIf="e5">
+            <div class="col-md-3" *ngFor="let photo of coup">
+                <br>
+                <img src="{{photo.imageUrl}}" alt="...." class="c">
+            </div>
+        </div>
+    </div>
+</div>

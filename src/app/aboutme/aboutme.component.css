@@ -1,0 +1,45 @@
+.a{
+    background-size: cover;
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.356), 
+        rgba(0, 0, 0, 0.39)
+      ),
+    url("https://scontent.fhyd1-2.fna.fbcdn.net/v/t1.0-9/s960x960/29496033_1842017755851114_1097554668877250560_o.jpg?_nc_cat=108&_nc_sid=7aed08&_nc_ohc=DYBQT-JjVPcAX8U6DFG&_nc_ht=scontent.fhyd1-2.fna&tp=7&oh=2453679ca9cd5e3cfdd702fd0dd05b39&oe=5F7F9DA5");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: auto;
+}
+.b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: -145px;
+    
+}
+.c{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: -5px;
+}
+.d{
+    margin-top: 85px;
+}
+.e{
+    width: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.f{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+.g{
+    margin-top: 50px;
+}
+.container-fluid{
+    background-color: gainsboro;
+}

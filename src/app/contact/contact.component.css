@@ -1,0 +1,45 @@
+.footer-top{
+    background-color: rgba(0, 0, 0, 0.897);
+    color: whitesmoke;
+    padding-top: 30px;
+}
+.footer-bottom{
+    background-color: rgba(0, 0, 0, 0.897);
+    color: whitesmoke;
+    border-top: white 0.8px solid;
+}
+.a{
+    font-size: 22px;
+    color: #4e71ba;
+    margin-right: 5px;
+}
+.a:hover{
+    color: whitesmoke;
+}
+.b{
+    color: #fe4164;
+    font-size: 22px;
+    margin-right: 5px;
+}
+.b:hover{
+    color: whitesmoke;
+}
+.c{
+    color: #E60023;
+    font-size: 22px;
+    margin-right: 5px;
+}
+.c:hover{
+    color: whitesmoke;
+}
+.d{
+      width: 60px;
+      border-radius: 20px;
+}
+.e{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    position: relative;
+    top: 10px;
+    left: 7px;
+}
