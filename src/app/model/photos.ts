@@ -2,47 +2,47 @@ import { Photo } from "./photo";
 
 export const PHOTOS:Photo[]=[
     {
-        imageUrl:"../assets/3.jpg",
+        imageUrl:"./assets/3.jpg",
         imageType:"wildlife"
     },
     {
-        imageUrl:"../assets/4.jpg",
+        imageUrl:"./assets/4.jpg",
         imageType:"wildlife"
     },
     {
-        imageUrl:"../assets/5.jpg",
+        imageUrl:"./assets/5.jpg",
         imageType:"wildlife"
     },
     {
-        imageUrl:"../assets/6.jpg",
+        imageUrl:"./assets/6.jpg",
         imageType:"nature"
     },
     {
-        imageUrl:"../assets/7.jpg",
+        imageUrl:"./assets/7.jpg",
         imageType:"nature"
     },
     {
-        imageUrl:"../assets/8.jpg",
+        imageUrl:"./assets/8.jpg",
         imageType:"nature"
     },
     {
-        imageUrl:"../assets/12.jpg",
+        imageUrl:"./assets/12.jpg",
         imageType:"couples"
     },
     {
-        imageUrl:"../assets/13.jpg",
+        imageUrl:"./assets/13.jpg",
         imageType:"couples"
     },
     {
-        imageUrl:"../assets/9.jpg",
+        imageUrl:"./assets/9.jpg",
         imageType:"portraits"
     },
     {
-        imageUrl:"../assets/10.jpg",
+        imageUrl:"./assets/10.jpg",
         imageType:"portraits"
     },
     {
-        imageUrl:"../assets/11.jpg",
+        imageUrl:"./assets/11.jpg",
         imageType:"portraits"
     }
 ];
