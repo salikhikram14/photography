@@ -9,21 +9,21 @@
     padding-bottom: 40px;
 }
 .b{
-    background-image: url("/assets/14.jpg");
+    background-image: url("src/assets/14.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 370px;
 }
 .c{
-    background-image: url("/assets/16.jpg");
+    background-image: url("src/assets/16.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 370px;
 }
 .d{
-    background-image: url("/assets/15.jpg");
+    background-image: url("src/assets/15.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
